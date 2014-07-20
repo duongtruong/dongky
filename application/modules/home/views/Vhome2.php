@@ -2,7 +2,7 @@
 <html lang="en"> 
     <head>
         <meta charset="utf-8"> 
-        <title>Title | Hướng dẫn cài đặt Codeigniter theo mô hình HMVC</title> 
+        <title>Title | Cài đặt Codeigniter theo mô hình HMVC</title> 
     </head>
     <body>
         <div style="align:center;">
