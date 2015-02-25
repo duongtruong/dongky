@@ -46,10 +46,11 @@ header .headerBanner{
     margin: 5px;
 }
 .Content{
-    min-height: 1777px;
+    min-height: 960px;
 }
 footer{
     bottom: 0;
+    margin-top: 20px;
     font-size: 12px;
     color: #666666;
     width: 100%;
@@ -95,7 +96,7 @@ footer .Footer{
     position: absolute;
     top: -8px;
     width: 18px;
-    background: url("../../img/images/arow-tick-menutop.png") no-repeat ;
+    background: url("../images/arow-tick-menutop.png") no-repeat ;
 }
 .dropdown-menu .arow-tick-right{
     height: 10px;
@@ -103,7 +104,7 @@ footer .Footer{
     position: absolute;
     top: -8px;
     width: 18px;
-    background: url("../../img/images/arow-tick-menutop.png") no-repeat ;
+    background: url("../images/arow-tick-menutop.png") no-repeat ;
 }
 .dropdown-menu .arow-tick-left{
     height: 10px;
@@ -111,14 +112,15 @@ footer .Footer{
     position: absolute;
     top: -8px;
     width: 18px;
-    background: url("../../img/images/arow-tick-menutop.png") no-repeat ;
+    background: url("../images/arow-tick-menutop.png") no-repeat ;
 }
 .btn-profile {
     background: linear-gradient(#FFFFFF, #F0F0F0);
     background-repeat: repeat-x;
     border-color: #CCCCCC;
-    color: #888888;
+    color: #666;
     text-shadow: 0 1px 0 #FFFFFF;
+    float: right;
 }
 .btn-profile:hover, .btn-profile:focus {
     background: #B9141A;
@@ -245,7 +247,7 @@ footer .Footer{
     padding-left: 28px
 }
 .icon-facebook{
-    background: url('../../img/images/f.png') no-repeat scroll center center #567890;
+    background: url('../images/f.png') no-repeat scroll center center #567890;
     border-radius: 0 2px 2px 0;
     height: 100%;
     position: absolute;
@@ -309,9 +311,13 @@ footer .Footer{
 }
 .modal-dialog{
     width: 100%;
-    min-width: 472px;
+    min-width: 350px;
     max-width: 728px;
     margin: 0 auto;
+}
+.modal-dialog.dialogin{
+    margin: 45px auto;
+    width: 350px;
 }
 .viewItemImg{
     display: table;
@@ -375,6 +381,152 @@ footer .Footer{
 .clearfix.AdvertisementSidebar embed{
     margin-bottom: 5px;
 }
-.Head {
+.btn.btn-profile.btnRegister{
+    border-radius: 0px 3px 3px 0px !important;
+}
+.normal.loginFacebook{
+    background: none repeat scroll 0 0 #3B5998;
+    border: 1px solid #456789;
+    border-radius: 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 13px 5px;
+    margin:5px 5px;
+    font-size: 13px;   
+    position: relative;
+}
+.normal.loginFacebook:hover{
+    background: none repeat scroll 0 0 #2D4373;
+}
 
+.normal.loginFacebook span{
+    padding-left: 50px;
+    text-shadow: 0 0 1px #000;
+}
+.notif-loginFace{
+    margin: 5px 10px 0px;
+    padding: 5px;
+}
+.PageLogin{
+    margin: 0 auto;
+    max-width: 350px;
+    padding-top: 75px;
+}
+.hr {
+    border-bottom: 1px solid #e4e5e8;
+    box-shadow: 0 1px 0 #fff, 0 0 0 transparent;
+    height: 8px;
+    position: relative;
+    text-align: center;
+}
+.hr .inner {
+    background: none repeat scroll 0 0 #e8e8e8;
+    border-radius: 100px;
+    display: inline-block;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 0;
+    padding: 9px 10px;
+    width: auto;
+    color: #808080; 
+}
+.hr .inner.Top {
+    background: none repeat scroll 0 0 #fff;   
+}
+.regis-item{
+    margin-bottom: 15px;
+}
+.FooterLog{
+    margin: 0px auto;
+    padding: 15px 19px;
+}
+.btnSignup{
+    padding-top: 50px;
+}
+.glyphicon.glyphicon-warning-sign.red-normal.re-error.err-ajax {
+    padding: 7px 20px 0px;
+    color: #a94442;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.glyphicon.glyphicon-warning-sign.red-normal.re-error.err-ajax > span {
+    font-family: arial;
+}
+.Detail {
+    height: auto;
+    width: 63%;
+    float: left;
+    background: none repeat scroll 0 0 #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.18);
+    height: auto;
+    margin: 12px 4px 0;
+    padding: 23px 15px;
+    line-height: 18px;
+}
+.SidebarDetail{
+    height: auto;
+    width: 35%;
+    float: right;
+    background: none repeat scroll 0 0 #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.18);
+    height: auto;
+    margin: 12px 4px 0;
+}
+.Breadcrumb{
+    font-weight: 500;
+    font-size: 12px;
+}
+.BreadcrumbLeft{
+    float:left;    
+}
+.BreadcrumbRight{
+    float: right;
+    color: #999;
+}
+.BreadcrumbList{
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.detailTitle{
+    font: 600 29px/33px arial
+}
+.detailImg{
+    margin: 25px 0px;
+    width: 85%;
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto
+} 
+.detailIntro{
+    font: 700 16px/22px arial;
+    margin-bottom: 10px;
+    float: left;
+}
+.detailContent{
+    padding: 0px 15px;
+    font: normal 15px/20px arial;
+}
+.detailAuthor{
+    float: right;
+    margin: 10px;
+    font: normal 15px/20px arial;
+}
+.detailAuthor source{
+    font-weight: inherit;
+}
+
+@media (max-width: 992px) {
+    .Detail{
+        width: 100%;
+    }
+    .SidebarDetail{
+        width: 100%;
+        float: left;
+    }
 }
